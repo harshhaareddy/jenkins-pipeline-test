@@ -34,7 +34,7 @@ pipeline {
                         agent {
                                 docker {
                                         reuseNode false
-					image 'ngnix'
+					image 'centos'
                                         }
 			}
 				steps {
